@@ -1,0 +1,111 @@
+#game {
+  background-color: #eee;
+  min-height: 100vh;
+}
+#game h1 {
+  text-align: center;
+  padding: 15px;
+  background-color: #00bcd4;
+  color: white;
+}
+#game .container {
+  margin: 0px 30px;
+}
+#game .container .title {
+  background-color: #a2a0a0;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}
+#game .container .title span {
+  font-weight: bold;
+  color: #ffeb3b;
+  font-size: large;
+}
+#game .container .btn {
+  padding: 15px;
+  background-color: #4caf50;
+  text-align: center;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #00bcd4;
+}
+#game .container input {
+  border: 1px solid #00bcd4;
+  padding: 15px;
+  width: 95%;
+  caret-color: #00bcd4;
+  margin-top: 10px;
+  text-align: center;
+}
+#game .container input:focus {
+  outline: none;
+}
+#game .container .wordsWrithe {
+  text-align: center;
+  font-size: xx-large;
+  padding: 15px;
+  font-weight: bold;
+}
+#game .container .allwords {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#game .container .allwords .item {
+  padding: 15px;
+  background-color: #a2a0a0;
+  margin: 3px;
+}
+#game .container .option {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#game .container .finesh {
+  text-align: center;
+  font-size: 30px;
+}
+#game .container .finesh .secces {
+  color: green;
+}
+#game .container .finesh .bad {
+  color: red;
+}
+#game .container select {
+  width: 100%;
+  padding: 15px;
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+#game .container .keep {
+  margin-top: 57px;
+  text-align: center;
+  font-size: x-large;
+  color: #00bcd4;
+}
+#game .container .tryAginbtn {
+  padding: 15px;
+  background-color: #00bcd4;
+  width: 100%;
+  font-size: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}

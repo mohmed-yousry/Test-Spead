@@ -1,0 +1,110 @@
+$main-padding: 15px;
+$main-bacground: #00bcd4;
+body {
+}
+#game {
+  background-color: #eee;
+  min-height: 100vh;
+  h1 {
+    text-align: center;
+    padding: $main-padding;
+    background-color: $main-bacground;
+    color: white;
+  }
+  .container {
+    margin: 0px 30px;
+    .title {
+      background-color: #a2a0a0;
+      text-align: center;
+      padding: $main-padding;
+      color: white;
+      font-weight: bold;
+      span {
+        font-weight: bold;
+        color: #ffeb3b;
+        font-size: large;
+      }
+    }
+
+    .btn {
+      padding: $main-padding;
+      background-color: #4caf50;
+      text-align: center;
+      color: white;
+      width: 100%;
+      cursor: pointer;
+      border: 1px solid $main-bacground;
+    }
+
+    input {
+      border: 1px solid $main-bacground;
+      padding: $main-padding;
+      width: 95%;
+      caret-color: #00bcd4;
+      margin-top: 10px;
+      text-align: center;
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .wordsWrithe {
+      text-align: center;
+      font-size: xx-large;
+      padding: $main-padding;
+      font-weight: bold;
+    }
+
+    .allwords {
+      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      .item {
+        padding: 15px;
+        background-color: #a2a0a0;
+        margin: 3px;
+      }
+    }
+
+    .option {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .finesh {
+      text-align: center;
+      font-size: 30px;
+      .secces {
+        color: green;
+      }
+      .bad {
+        color: red;
+      }
+    }
+    select {
+      width: 100%;
+      padding: $main-padding;
+      font-size: 30px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .keep {
+      margin-top: 57px;
+      text-align: center;
+      font-size: x-large;
+      color: $main-bacground;
+    }
+    .tryAginbtn {
+      padding: $main-padding;
+      background-color: #00bcd4;
+      width: 100%;
+      font-size: 50px;
+      cursor: pointer;
+      font-weight: bold;
+      color: white;
+    }
+  }
+}

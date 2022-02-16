@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div id="game">
+      <h1>Tyoing Speed Test Game</h1>
+      <div class="container">
+        <div class="selectlev">
+          <div class="select">
+            <select class="select1">
+              <option selected>select Level</option>
+              <option>Easy</option>
+              <option>Medim</option>
+              <option>Herd</option>
+            </select>
+          </div>
+        </div>
+        <div class="selectlev">
+          <div class="select">
+            <select class="leng">
+              <option selected>select language</option>
+              <option>Arbic</option>
+              <option>English</option>
+            </select>
+          </div>
+        </div>
+        <p class="title">
+          You Are Playing [<span class="level"> </span>] Level & You Have [<span
+            class="secendLevel"
+          ></span
+          >]secend To Type The Word
+        </p>
+
+        <button class="btn">Start Playing</button>
+        <p class="wordsWrithe"></p>
+        <input type="text" />
+        <div class="allwords"></div>
+
+        <div class="option">
+          <div class="secend">
+            Time Left : <span class="leftsecend"></span> secend
+          </div>
+
+          <div class="score">
+            score <span class="secend-level"></span> From
+            <span class="numberAllWords"></span>
+          </div>
+        </div>
+        <div class="finesh"></div>
+
+        <div class="keep">
+          فى حالة عدم اختيار مستوى يتم تشغيل اللعبة تلقائياً على المستوى المتوسط
+          وفى حالة عدم اختيار اللغة يتم اختيار اللغة العربية تلقائيا
+          <p>[المستوى الصعب] [2 ثانية]</p>
+          <p>[المستوى المتوسط] [3 ثانية]</p>
+          <p>[المستوى السهل] [5 ثانية]</p>
+        </div>
+      </div>
+      <script src="./js/main.js"></script>
+    </div>
+  </body>
+</html>
